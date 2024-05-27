@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Maria11d\\FoodDelivery\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|C:\\Maria11d\\FoodDelivery\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|c:\\maria11d\\fooddelivery\\migrations\\202405270707427_initialmigranion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:migrations\\202405270707427_initialmigranion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|c:\\maria11d\\fooddelivery\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|C:\\Maria11d\\FoodDelivery\\model\\dishtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:model\\dishtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|C:\\Maria11d\\FoodDelivery\\model\\dishesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:model\\dishesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|C:\\Maria11d\\FoodDelivery\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|C:\\Maria11d\\FoodDelivery\\model\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:model\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "202405270707427_InitialMigranion.cs",
+              "DocumentMoniker": "C:\\Maria11d\\FoodDelivery\\Migrations\\202405270707427_InitialMigranion.cs",
+              "RelativeDocumentMoniker": "Migrations\\202405270707427_InitialMigranion.cs",
+              "ToolTip": "C:\\Maria11d\\FoodDelivery\\Migrations\\202405270707427_InitialMigranion.cs",
+              "RelativeToolTip": "Migrations\\202405270707427_InitialMigranion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T07:07:58.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Maria11d\\FoodDelivery\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Maria11d\\FoodDelivery\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "Migrations\\Configuration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T07:06:48.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DishesDbContext.cs",
+              "DocumentMoniker": "C:\\Maria11d\\FoodDelivery\\Model\\DishesDbContext.cs",
+              "RelativeDocumentMoniker": "Model\\DishesDbContext.cs",
+              "ToolTip": "C:\\Maria11d\\FoodDelivery\\Model\\DishesDbContext.cs",
+              "RelativeToolTip": "Model\\DishesDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:36:14.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DishType.cs",
+              "DocumentMoniker": "C:\\Maria11d\\FoodDelivery\\Model\\DishType.cs",
+              "RelativeDocumentMoniker": "Model\\DishType.cs",
+              "ToolTip": "C:\\Maria11d\\FoodDelivery\\Model\\DishType.cs",
+              "RelativeToolTip": "Model\\DishType.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAcwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:30:47.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Maria11d\\FoodDelivery\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Maria11d\\FoodDelivery\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:20:33.006Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Maria11d\\FoodDelivery\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Maria11d\\FoodDelivery\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-21T08:40:31.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dish.cs",
+              "DocumentMoniker": "C:\\Maria11d\\FoodDelivery\\Model\\Dish.cs",
+              "RelativeDocumentMoniker": "Model\\Dish.cs",
+              "ToolTip": "C:\\Maria11d\\FoodDelivery\\Model\\Dish.cs",
+              "RelativeToolTip": "Model\\Dish.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:25:49.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
