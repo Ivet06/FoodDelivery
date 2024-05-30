@@ -16,7 +16,7 @@ namespace FoodDelivery.Model
         public double Weight { get; set; }
         public string Type { get; set; }
 
-        //M:1
+        
         public int DishTypesId{ get; set; }//FK
         public DishType DishTypes { get; set; }//таблицата, с която сe осъществява връзката
     }
