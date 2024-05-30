@@ -30,17 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbType = new System.Windows.Forms.ComboBox();
             this.btnFind = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnSelectAll = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.lstBoxOpisanie = new System.Windows.Forms.ListBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtWeight = new System.Windows.Forms.TextBox();
+            this.txtPrice = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.lblGramaj = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.lblCena = new System.Windows.Forms.Label();
@@ -69,14 +69,14 @@
             this.pictureBox2.TabIndex = 52;
             this.pictureBox2.TabStop = false;
             // 
-            // comboBox1
+            // cmbType
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(190, 288);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(100, 26);
-            this.comboBox1.TabIndex = 50;
+            this.cmbType.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cmbType.FormattingEnabled = true;
+            this.cmbType.Location = new System.Drawing.Point(190, 288);
+            this.cmbType.Name = "cmbType";
+            this.cmbType.Size = new System.Drawing.Size(100, 26);
+            this.cmbType.TabIndex = 50;
             // 
             // btnFind
             // 
@@ -87,6 +87,7 @@
             this.btnFind.TabIndex = 49;
             this.btnFind.Text = "Изведете вашата поръчка";
             this.btnFind.UseVisualStyleBackColor = true;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // btnUpdate
             // 
@@ -97,6 +98,7 @@
             this.btnUpdate.TabIndex = 48;
             this.btnUpdate.Text = "Обновете вашата поръчка";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnSelectAll
             // 
@@ -107,6 +109,7 @@
             this.btnSelectAll.TabIndex = 47;
             this.btnSelectAll.Text = "Изведете всичко\r\n";
             this.btnSelectAll.UseVisualStyleBackColor = true;
+            this.btnSelectAll.Click += new System.EventHandler(this.btnSelectAll_Click);
             // 
             // btnDelete
             // 
@@ -117,6 +120,7 @@
             this.btnDelete.TabIndex = 46;
             this.btnDelete.Text = "Изтрийте вашата поръчка";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnAdd
             // 
@@ -127,6 +131,7 @@
             this.btnAdd.TabIndex = 45;
             this.btnAdd.Text = "  Добавете вашата поръчка";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // lstBoxOpisanie
             // 
@@ -138,37 +143,37 @@
             this.lstBoxOpisanie.Size = new System.Drawing.Size(226, 256);
             this.lstBoxOpisanie.TabIndex = 44;
             // 
-            // textBox7
+            // txtWeight
             // 
-            this.textBox7.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox7.Location = new System.Drawing.Point(190, 253);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 25);
-            this.textBox7.TabIndex = 43;
+            this.txtWeight.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txtWeight.Location = new System.Drawing.Point(190, 253);
+            this.txtWeight.Name = "txtWeight";
+            this.txtWeight.Size = new System.Drawing.Size(100, 25);
+            this.txtWeight.TabIndex = 43;
             // 
-            // textBox6
+            // txtPrice
             // 
-            this.textBox6.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox6.Location = new System.Drawing.Point(190, 216);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 25);
-            this.textBox6.TabIndex = 42;
+            this.txtPrice.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txtPrice.Location = new System.Drawing.Point(190, 216);
+            this.txtPrice.Name = "txtPrice";
+            this.txtPrice.Size = new System.Drawing.Size(100, 25);
+            this.txtPrice.TabIndex = 42;
             // 
-            // textBox4
+            // txtName
             // 
-            this.textBox4.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox4.Location = new System.Drawing.Point(190, 176);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 25);
-            this.textBox4.TabIndex = 41;
+            this.txtName.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txtName.Location = new System.Drawing.Point(190, 176);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(100, 25);
+            this.txtName.TabIndex = 41;
             // 
-            // textBox3
+            // txtId
             // 
-            this.textBox3.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3.Location = new System.Drawing.Point(190, 139);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 25);
-            this.textBox3.TabIndex = 40;
+            this.txtId.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txtId.Location = new System.Drawing.Point(190, 139);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(100, 25);
+            this.txtId.TabIndex = 40;
             // 
             // lblGramaj
             // 
@@ -293,17 +298,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbType);
             this.Controls.Add(this.btnFind);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnSelectAll);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lstBoxOpisanie);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtWeight);
+            this.Controls.Add(this.txtPrice);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.lblGramaj);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.lblCena);
@@ -318,6 +323,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -330,17 +336,17 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbType;
         private System.Windows.Forms.Button btnFind;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnSelectAll;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.ListBox lstBoxOpisanie;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtWeight;
+        private System.Windows.Forms.TextBox txtPrice;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Label lblGramaj;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lblCena;

@@ -1,14 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Ivet11d\\FoodDelivery\\",
+  "WorkspaceRootPath": "E:\\DOSTAVKA\\FoodDelivery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|c:\\ivet11d\\fooddelivery\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|e:\\dostavka\\fooddelivery\\view\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:view\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|C:\\Ivet11d\\FoodDelivery\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|E:\\DOSTAVKA\\FoodDelivery\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|e:\\dostavka\\fooddelivery\\controller\\dishetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:controller\\dishetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|e:\\dostavka\\fooddelivery\\model\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:model\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|E:\\DOSTAVKA\\FoodDelivery\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|e:\\dostavka\\fooddelivery\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|e:\\dostavka\\fooddelivery\\controller\\dishecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:controller\\dishecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|e:\\dostavka\\fooddelivery\\model\\dishesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78A9E9D-D1E3-4BB6-BE9F-FA661C5C79AA}|FoodDelivery.csproj|solutionrelative:model\\dishesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,40 +42,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Display.cs",
+              "DocumentMoniker": "E:\\DOSTAVKA\\FoodDelivery\\View\\Display.cs",
+              "RelativeDocumentMoniker": "View\\Display.cs",
+              "ToolTip": "E:\\DOSTAVKA\\FoodDelivery\\View\\Display.cs",
+              "RelativeToolTip": "View\\Display.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAADAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T06:18:55.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DisheTypeController.cs",
+              "DocumentMoniker": "E:\\DOSTAVKA\\FoodDelivery\\Controller\\DisheTypeController.cs",
+              "RelativeDocumentMoniker": "Controller\\DisheTypeController.cs",
+              "ToolTip": "E:\\DOSTAVKA\\FoodDelivery\\Controller\\DisheTypeController.cs",
+              "RelativeToolTip": "Controller\\DisheTypeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:37:24.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DisheController.cs",
+              "DocumentMoniker": "E:\\DOSTAVKA\\FoodDelivery\\Controller\\DisheController.cs",
+              "RelativeDocumentMoniker": "Controller\\DisheController.cs",
+              "ToolTip": "E:\\DOSTAVKA\\FoodDelivery\\Controller\\DisheController.cs",
+              "RelativeToolTip": "Controller\\DisheController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:29:36.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dish.cs",
+              "DocumentMoniker": "E:\\DOSTAVKA\\FoodDelivery\\Model\\Dish.cs",
+              "RelativeDocumentMoniker": "Model\\Dish.cs",
+              "ToolTip": "E:\\DOSTAVKA\\FoodDelivery\\Model\\Dish.cs",
+              "RelativeToolTip": "Model\\Dish.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:18:57.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\DOSTAVKA\\FoodDelivery\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "E:\\DOSTAVKA\\FoodDelivery\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:20:33.006Z",
+              "EditorCaption": " [Design]"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Ivet11d\\FoodDelivery\\Form1.cs",
+              "DocumentMoniker": "E:\\DOSTAVKA\\FoodDelivery\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Ivet11d\\FoodDelivery\\Form1.cs",
+              "ToolTip": "E:\\DOSTAVKA\\FoodDelivery\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAEwCkAAAAAAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T07:21:01.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Ivet11d\\FoodDelivery\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Ivet11d\\FoodDelivery\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\DOSTAVKA\\FoodDelivery\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "E:\\DOSTAVKA\\FoodDelivery\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-30T05:18:32.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DishesDbContext.cs",
+              "DocumentMoniker": "E:\\DOSTAVKA\\FoodDelivery\\Model\\DishesDbContext.cs",
+              "RelativeDocumentMoniker": "Model\\DishesDbContext.cs",
+              "ToolTip": "E:\\DOSTAVKA\\FoodDelivery\\Model\\DishesDbContext.cs",
+              "RelativeToolTip": "Model\\DishesDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T08:20:33.006Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-30T05:18:59.647Z",
+              "EditorCaption": ""
             }
           ]
         }
