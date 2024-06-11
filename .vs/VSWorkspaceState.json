@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Controller",
-    "\\Model",
-    "\\View"
+    "\\Model"
   ],
-  "SelectedNode": "\\Controller\\DisheTypeController.cs",
+  "SelectedNode": "\\FoodDelivery.sln",
   "PreviewInSolutionExplorer": false
 }

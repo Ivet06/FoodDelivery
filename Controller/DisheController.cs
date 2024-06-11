@@ -22,7 +22,7 @@ namespace FoodDelivery.NewFolder1
         }
         public List<Dish> GetAll()
         {
-            return dishesDbContext.Dishes.Include("DishType").ToList();
+            return dishesDbContext.Dishes.Include("DishTypes").ToList();
         }
         public void Create(Dish dish) 
         {

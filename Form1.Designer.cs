@@ -81,9 +81,9 @@
             // btnFind
             // 
             this.btnFind.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnFind.Location = new System.Drawing.Point(589, 338);
+            this.btnFind.Location = new System.Drawing.Point(579, 338);
             this.btnFind.Name = "btnFind";
-            this.btnFind.Size = new System.Drawing.Size(176, 23);
+            this.btnFind.Size = new System.Drawing.Size(186, 23);
             this.btnFind.TabIndex = 49;
             this.btnFind.Text = "Изведете вашата поръчка";
             this.btnFind.UseVisualStyleBackColor = true;
@@ -92,9 +92,9 @@
             // btnUpdate
             // 
             this.btnUpdate.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnUpdate.Location = new System.Drawing.Point(589, 280);
+            this.btnUpdate.Location = new System.Drawing.Point(579, 280);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(176, 23);
+            this.btnUpdate.Size = new System.Drawing.Size(186, 23);
             this.btnUpdate.TabIndex = 48;
             this.btnUpdate.Text = "Обновете вашата поръчка";
             this.btnUpdate.UseVisualStyleBackColor = true;
@@ -103,9 +103,9 @@
             // btnSelectAll
             // 
             this.btnSelectAll.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnSelectAll.Location = new System.Drawing.Point(589, 367);
+            this.btnSelectAll.Location = new System.Drawing.Point(579, 367);
             this.btnSelectAll.Name = "btnSelectAll";
-            this.btnSelectAll.Size = new System.Drawing.Size(176, 23);
+            this.btnSelectAll.Size = new System.Drawing.Size(186, 23);
             this.btnSelectAll.TabIndex = 47;
             this.btnSelectAll.Text = "Изведете всичко\r\n";
             this.btnSelectAll.UseVisualStyleBackColor = true;
@@ -114,9 +114,9 @@
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnDelete.Location = new System.Drawing.Point(589, 309);
+            this.btnDelete.Location = new System.Drawing.Point(579, 309);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(176, 23);
+            this.btnDelete.Size = new System.Drawing.Size(186, 23);
             this.btnDelete.TabIndex = 46;
             this.btnDelete.Text = "Изтрийте вашата поръчка";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -125,9 +125,9 @@
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnAdd.Location = new System.Drawing.Point(589, 251);
+            this.btnAdd.Location = new System.Drawing.Point(579, 251);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(176, 23);
+            this.btnAdd.Size = new System.Drawing.Size(186, 23);
             this.btnAdd.TabIndex = 45;
             this.btnAdd.Text = "  Добавете вашата поръчка";
             this.btnAdd.UseVisualStyleBackColor = true;
